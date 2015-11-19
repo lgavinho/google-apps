@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>Apps</h1>
+<ul>
+    <li><a href="https://mail.google.com/mail/">Gmail</a></li>
+    <li><a href="https://drive.google.com">Drive</a></li>
+</ul>
+
+<button onclick="signOut();">Sign out</button>
+<script>
+    function signOut() {
+        window.location = 'https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout?continue=http://googleapps.dev';
+    }
+</script>
+
+</body>
+</html>
