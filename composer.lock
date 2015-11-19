@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "58a0e7c626f207984db8e991d36508b5",
-    "content-hash": "525073ba9a8caca392fcf337ffbe6561",
+    "hash": "19635107bdf35f3f852c9308a1ea47d2",
+    "content-hash": "bae11998d6a290f6d42f49aad689fd9d",
     "packages": [
         {
             "name": "google/apiclient",
@@ -51,6 +51,47 @@
                 "google"
             ],
             "time": "2014-09-30 19:33:59"
+        },
+        {
+            "name": "google/identity-toolkit-php-client",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/identity-toolkit-php-client.git",
+                "reference": "857379c0e4b47747c45e3f69f4f1cf9e39733d6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/identity-toolkit-php-client/zipball/857379c0e4b47747c45e3f69f4f1cf9e39733d6f",
+                "reference": "857379c0e4b47747c45e3f69f4f1cf9e39733d6f",
+                "shasum": ""
+            },
+            "require": {
+                "google/apiclient": "~1.0",
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google Identity Toolkit APIs",
+            "homepage": "https://developers.google.com/identity-toolkit/",
+            "keywords": [
+                "gitkit"
+            ],
+            "time": "2015-10-02 23:58:43"
         }
     ],
     "packages-dev": [
